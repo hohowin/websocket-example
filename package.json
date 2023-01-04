@@ -1,0 +1,17 @@
+{
+  "name": "websocket-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hohowin/websocket-example.git",
+  "author": "Howin Ho <ho1ho@yahoo.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  }
+}
