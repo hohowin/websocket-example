@@ -37,3 +37,13 @@ npx tsconfig.json
 ```
 
 ### package.json
+
+For each package:
+
+```json
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js",
+    "start": "node dist/index.js"
+  },
+```
