@@ -22,14 +22,18 @@ yarn init -y
     - `workspace` info
     - `private` true
 
-- Now you can add package to any workspace from root. E.g:
-
-```bash
-yarn workspace server add express
-```
-
 ### typescript
 
 ```bash
-yarn add -DW @types/node typescript
+yarn workspace server add -D @types/node typescript nodemon
+yarn workspace client add -D @types/node typescript nodemon
 ```
+
+- Then, add tsconfig in each package
+
+```
+# cd [package]
+npx tsconfig.json
+```
+
+### package.json
