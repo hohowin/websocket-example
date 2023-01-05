@@ -58,4 +58,25 @@ For each package:
 
 Run
 
-1\. Install packages
+1\. Install
+
+```bash
+yarn
+```
+
+2\. Build
+
+```bash
+yarn workspace server build
+yarn workspace client build
+```
+
+3\. Run. Open 2 different terminals
+
+```bash
+yarn workspace server start
+```
+
+```bash
+yarn workspace client start
+```
