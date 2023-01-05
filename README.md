@@ -1,10 +1,14 @@
 # websocket-example
 
+---
+
 ## Setup 
 
 ### Monorepo
 
+page: [Workspaces](https://classic.yarnpkg.com/lang/en/docs/workspaces/)
 Youtube: [React Nodejs/Express Project Monorepo Setup | FullStack | Yarn Workspaces | Concurrently](https://youtu.be/ACDGXHR_YmI)
+Github: [Modern Monorepo Boilerplate](https://github.com/michaljach/modern-monorepo-boilerplate)
 
 ```bash
 yarn init -y
@@ -34,6 +38,8 @@ yarn workspace client add -D @types/node typescript nodemon
 ```
 # cd [package]
 npx tsconfig.json
+
+# OR tsc --init
 ```
 
 ### package.json
@@ -47,3 +53,9 @@ For each package:
     "start": "node dist/index.js"
   },
 ```
+
+---
+
+Run
+
+1\. Install packages
